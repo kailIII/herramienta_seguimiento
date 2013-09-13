@@ -4,6 +4,8 @@ $dbhost = "localhost";
 $dbuser = "ecopetrol_ci2012";
 $dbpass = "ecopetrol_ci2012";  
 
+// Mi comentario
+
 dbConnect("ecopetrol_ci2012");
 
 function dbConnect($db=""){
