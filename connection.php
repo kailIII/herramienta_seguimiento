@@ -11,7 +11,14 @@ function dbConnect($db=""){
     $dbcnx = @mysql_connect($dbhost, $dbuser, $dbpass)
         or die("[ADMIN]Lo sentimos: El servidor de DB No esta disponible.");
     if ($db!="" and !@mysql_select_db($db))
-        die("[ADMIN]Lo sentimos: La Base de datos no esta disponible.");
+        die("[ADMIN]Lo sentimos: Esta Base de datos no esta disponible.");
     return $dbcnx;
 }
+?>
+
+
+<?php
+
+/* Comentario prueba */
+
 ?>
