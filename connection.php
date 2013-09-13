@@ -2,7 +2,7 @@
 $dbhost = "localhost";
 //$dbuser = "webmaster_cnc";
 $dbuser = "ecopetrol_ci2012";
-$dbpass = "ecopetrol_ci2012";
+$dbpass = "ecopetrol_ci2012";  
 
 dbConnect("ecopetrol_ci2012");
 
