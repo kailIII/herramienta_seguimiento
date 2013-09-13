@@ -1,0 +1,396 @@
+body,select,input,th,td,p,a { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+}
+
+body { 
+	background: #F5F5F5;
+	text-align: center; margin-top: 10px; margin-left: 0px; margin-right: 0px; 
+}
+
+a { color: #41803E; }
+a:link { color:  #41803E; text-decoration: none }
+a:visited { color:  #41803E; text-decoration: none }
+a:active { color:  #41803E; text-decoration: none }
+a:hover { color:  #41803E; text-decoration: underline }
+
+.Border { border: 1px solid #B7B7B7; }
+.RightBorder { border-right: 1px solid #B7B7B7; }
+.rb { border-right: 1px solid #D6D6D6; }
+.bb { border-bottom: 1px solid #D6D6D6; }
+.bbp { border-bottom: 1px solid #D6D6D6; }
+.bbr { border-bottom: 1px solid #D6D6D6; border-right: 1px solid #D6D6D6;}
+.borderAll { border: 1px solid #D6D6D6; }
+.borderALL { border: 1px solid #D6D6D6; }
+.borderT { border-top: 1px solid #D6D6D6; }
+.borderTL { border-top: 1px solid #D6D6D6; border-left: 1px solid #D6D6D6;}
+.borderL { border-left: 1px solid #D6D6D6;}
+.borderBR { border-bottom: 1px solid #D6D6D6; border-right: 1px solid #D6D6D6;}
+.borderR { border-right: 1px solid #D6D6D6;}
+.borderTLR	{ border-top: 1px solid #D6D6D6; border-left: 1px solid #D6D6D6; border-right: 1px solid #D6D6D6;}
+
+.borderGris { border: 1px solid #D6D6D6; }
+.borderBlue { border: 1px solid #CED7EC; }
+
+.borderBt	{ border-bottom:solid 1px #DDDDDD; }
+
+.topTextGreen { font-size: 13px; color: #41803E; } /* #41803E; */
+.topTextBig { font-size: 13px; font-weight: bold;}
+.topText { font-size: 13px; color: #828282;}	/* #828282; */
+.cTB { border: 1px solid #D6D6D6; };
+
+.title { font-size: 15px; color: #828282; font-weight: bold}
+.desc { font-size: 11px; color: #828282; }
+.desc2 { font-size: 11px; color: #F2F2F2; }
+.small { font-size: 10px; }
+.small_11 { font-size: 11px; }
+.smallGray { font-size: 10px; color: #828282;} 
+.smallDesc { font-size: 10px; color: #828282;} 
+
+a.desc, a.desc:Visited, a.desc:Active, a.desc:Link { font-size: 11px; color: #828282; text-decoration: none;}
+a.desc:Hover { font-size: 11px; color: #41803E; text-decoration: underline;}
+
+.titulosecciones {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+}
+.subtitulos_azules {
+	color: #6699CC;
+	font-family: Georgia;
+	font-size: 20px;
+}
+.subtitulos_azules2 {
+	color: #6699CC;
+	font-family: Georgia;
+	font-size: 16px;
+}
+
+a {
+	font-family: Arial;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+a:link {
+	text-decoration: none;
+	color: #000000;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+a:active {
+	text-decoration: none;
+	color: #000000;
+}
+
+.autor {
+	font-size: 12px;
+	color: #b9b9b9;
+	font-weight: bold;
+}
+
+.Section { 
+	Border-top: 1px solid #DFDEBE;  /* #AFAF5C */
+	Border-bottom: 1px solid #AFAF5C;  /* #AFAF5C */
+	Color: #3F3F2C; 
+	Margin: 0px 0px 2px 0px; 
+	Padding: 3px; 
+	Font-Size: 10px; 
+	Background-Color: #EFEECE; /* FFEFB4, #EFEECE */
+	Font-Weight: bold;
+}
+
+.SectionNoBorder { 
+	Color: #3F3F2C; 
+	Font-Size: 10px; 
+	Background-Color: #EFEECE; /* FFEFB4, #EFEECE */
+	Font-Weight: bold;
+}
+
+input.Button { 
+	margin: 0px; 
+	margin-top: 7px; 
+	margin-bottom: 7px; 
+	padding: 1px; 
+	Color: white; 
+	border: 1px solid black; 
+	Background-Color: #828282; /* FFEFB4 */
+	Font-Weight: bold;
+}
+
+input.Button2 { 
+	margin: 0px; 
+	Color: white; 
+	border: 1px solid black; 
+	Background-Color: #828282; /* FFEFB4 */
+	Font-Weight: normal; 
+}
+
+.SmallSection { border-bottom: 1px solid #828282; color: #828282; font-size: 11px;}
+.tHead { Background-color: #41803E; color: white;}
+.SectionBox { Border: 1px solid #D6D6D6; Color: black; Background-color: #F6F6F6; } /* #6090D0; */
+.Name { 
+	Color: #41803E; Font-Size: 12px; Font-Weight: Normal;
+}
+
+a.Name, a.Name:link, a.Name:visited, a.Name:active { 
+	Color: #41803E; Font-Size: 12px; Font-Weight: Normal; text-decoration: underline; 
+}
+
+.Footer, a.Footer, a.Footer:link, a.Footer:visited, a.Footer:active { 
+	Color: #41803E; Font-Size: 9px; Font-Weight: Normal; text-decoration: none; 
+}
+
+a.Footer:Hover {
+	Color: #41803E; Font-Size: 9px; Font-Weight: Normal; text-decoration: underline; 
+}
+
+.newsLink, a.newsLink, a.newsLink:link, a.newsLink:visited, a.newsLink:active { 
+	Color: #414141; Font-Size: 11px; Font-Weight: Normal; text-decoration: none; 
+}
+
+a.newsLink:Hover {
+	Color: #41803E; Font-Size: 11px; Font-Weight: Normal; text-decoration: underline; 
+}
+
+.newsLinkDate {
+	Color: #828282; 
+	Font-Size: 11px; 
+}
+
+.userName { Color: #616161; Font-Weight: bold; Font-Size: 14px; }
+.userTitle { Color: #616161; Font-Weight: bold; Font-Size: 12px; }
+.userHead { Color: #616161; Font-Weight: normal; Font-Size: 12px; }
+.userLocation { Color: #828282; Font-Weight: normal; Font-Size: 11px; }
+.userText { Color: #616161; Font-Size: 11px; }
+
+a.menuLink { font-size: 10px; font-weight: bold; color: #828282; text-decoration: none; }
+a.menuLink:link { font-size: 10px; font-weight: bold; color: #828282; text-decoration: none; }
+a.menuLink:visited { font-size: 10px; font-weight: bold; color: #828282; text-decoration: none; }
+a.menuLink:active { font-size: 10px; font-weight: bold; color: #828282; text-decoration: none; }
+a.menuLink:hover { font-size: 10px; font-weight: bold; color: #41803E; text-decoration: none; }
+
+.menuLinkTitle, a.menuLinkTitle { font-size: 11px; color: #41803E; font-weight: bold; text-decoration: none; }
+a.menuLinkTitle:link { font-size: 11px; font-weight: bold; color: #41803E; text-decoration: none; }
+a.menuLinkTitle:visited { font-size: 11px; font-weight: bold; color: #41803E; text-decoration: none; }
+a.menuLinkTitle:active { font-size: 11px; font-weight: bold; color: #41803E; text-decoration: none; }
+a.menuLinkTitle:hover { font-size: 11px; font-weight: bold; color: #41803E; text-decoration: none; }
+
+.menuSmall { font-size: 9px; color: #828282; font-weight: normal;}
+/*select, input { border: solid 1 #FF7F00; background: #FFFFFF; }*/
+input.Check { border: none; }
+input,select { padding-left: 2px; }
+.tableGlobal { border: 1px solid #828282; }
+.tableTitle { background-color: #41803E; color: white; }
+.tableRow { background-color: #FFFFFF; color: black; border-bottom: 1px solid #B7B7B7; }
+.lineaVerde { background-color: #FFFFFF; border-bottom: 1px solid #006600; }
+
+.orange { color: #41803E; }
+.green { color: #41803E; }
+.helpText { font-size: 11px; }
+.high { Color: #69CC62; }
+.HomeTitle { Color: #41803E; Font-Size: 18px; Font-Weight: bold; }
+
+h3 { font-weight: bold; font-size: 13px; padding-top: 5px; margin: 0px; margin-bottom: 5px; }
+h2 { font-weight: bold; font-size: 16px; padding-top: 5px; margin: 0px; margin-bottom: 5px; Color: #41803E; }
+
+.borderTabGroup{ border: ridge 1px #D0D0D0; }
+
+input.buttonw{ 
+	margin: 0px;
+	margin-top: 7px; 
+	margin-bottom: 7px; 
+	padding: 1px; 
+	Color: white; 
+	border: 1px solid black; 
+	Background-Color: #828282; /* FFEFB4 */
+	Font-Weight: bold;
+	height:20px;
+	width:130px;
+}
+/* 'txt_noborder' Aplica para quitar marco de las cajas de texto */
+.txt_noborder {border:none; border-bottom-style:dotted; border-bottom-width:1px;
+width:100%
+}
+/* Texto vertical */
+.texto_v {writing-mode: tb-rl; filter: flipv fliph;}
+.texto_small { font-size: 9px; }
+/* Redondear marcos */
+fieldset {margin:0; color:#006699; -moz-border-radius: 7px;}
+
+.linkBlue{  
+	font-family: Georgia;
+	font-size: 12px;		
+	font-weight: bold;
+	text-decoration: none;
+	color: #6699CC;
+}
+
+.tituloBlue13{  
+	font-family: Georgia;
+	font-size: 13px;		
+	font-weight: bold;
+	text-decoration: none;
+	color: #6699CC;
+}
+
+.marginL5 {margin-left:5px;}
+.marginL10 {margin-left:10px;}
+.marginR5 {margin-right:5px;}
+.marginR10 {margin-right:10px;}
+.margin5 {margin-left:5px; margin-right:5px;}
+.margin5All {margin:5px;}
+.marginLR5 {margin-left:5px; margin-right:5px;}
+.marginLR10 {margin-left:10px; margin-right:10px;}
+.marginTB2 { margin-top:2px; margin-bottom:2px;}
+.marginTB5 { margin-top:5px; margin-bottom:5px;}
+.padding2	{ padding:2px;	}
+.padding5	{ padding:5px;	}
+.padding10	{ padding:10px;	}
+.paddingTB10	{ padding-top:10px; padding-bottom:10px;	}
+.bgF0F0F0	{ background-color:#F0F0F0;}
+
+/*********************************/
+/* Para aplicar a Login Nuevo    */
+/*********************************/
+.userName2 { Color: #cccccc; Font-Weight: bold; Font-Size: 18px; }
+.titulosecciones2 {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 20px;
+	color:#666666;
+}
+.titulos_azules {
+	color: #6699CC;
+	font-family: Georgia;
+	font-size: 46px;
+}
+.labels {
+	color: #000000;
+	font-family: Georgia;
+	font-size: 12px;
+}
+
+
+/*********************************/
+/*********************************/
+/* Para aplicar globo explicativo*/
+/*********************************/
+/*********************************/
+/*
+div#container generó problema con el calendario
+
+div#container{width: 500px; margin:0 auto}
+*/
+/*---------- bubble tooltip -----------*/
+a.tt{
+    position:relative;
+    z-index:24;
+    color:#3CA3FF;
+	font-weight:bold;
+    text-decoration:none;
+}
+a.tt span{ display: none; }
+
+/*background:; ie hack, something must be changed in a for ie to execute it*/
+a.tt:hover{ z-index:25; color: #aaaaff; background:;}
+a.tt:hover span.tooltip{
+    display:block;
+    position:absolute;
+    top:0px; left:0;
+	padding: 15px 0 0 0;
+	width:200px;
+	color: #993300;
+    text-align: center;
+	filter: alpha(opacity:90);
+	KHTMLOpacity: 0.90;
+	MozOpacity: 0.90;
+	opacity: 0.90;
+}
+a.tt:hover span.top{
+	display: block;
+	padding: 30px 8px 0;
+    background: url(/imagenes/bubble.gif) no-repeat top;
+}
+a.tt:hover span.middle{ /* different middle bg for stretch */
+	display: block;
+	padding: 0 8px; 
+	background: url(/imagenes/bubble_filler.gif) repeat bottom; 
+}
+a.tt:hover span.bottom{
+	display: block;
+	padding:3px 8px 10px;
+	color: #548912;
+    background: url(/imagenes/bubble.gif) no-repeat bottom;
+}
+/*********************************/
+/*********************************/
+/* Fin estilo para aplicar globo explicativo*/
+/*********************************/
+/*********************************/
+
+.contenedorRows{
+	width:900px;
+	min-height:25px;
+	text-align:left;
+	border:none;
+	background-color:#FFFFFF;
+	border-bottom: 1 solid #D6D6D6;
+}
+.divCapitulo{
+	width:100%;
+	height:25px;
+	text-align:center;
+	vertical-align:middle;
+	padding:5px;
+	background-image:url(/imagenes/cnc_menubar_gris.gif);
+}
+.divInstruccion{
+	background-color:#F0F0F0;
+	color:#333366;
+}
+.divInstruccionItem{
+	float:left;
+	width:40px;
+	text-align:left;
+	vertical-align:middle;
+	padding:5px;
+}
+.divInstruccionDes{
+	float:left;
+	width:860px;;
+	height:25px;
+	text-align:left;
+	vertical-align:middle;
+	padding:5px;
+}
+.widthItem{
+	float:left;
+	padding:5px;
+	border:none;
+	width:40px;
+	height:25px;
+	text-align:left;
+}
+.widthPregunta{
+	float:left;
+	padding:5px;
+	border:none;
+	width:600px;
+	height:25px;
+	text-align:left;
+}
+.widthObjeto{
+	float:left;
+	padding:5px;
+	border:none;
+	width:260px;
+	height:25px;
+	text-align:left;
+}
